@@ -1,0 +1,61 @@
+/* 폰트 및 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* 게임 박스 디자인 */
+.game-wrapper {
+    text-align: center;
+    border: 4px solid #444;
+    padding: 20px;
+    background-color: #000;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+    border-radius: 10px;
+}
+
+.game-title {
+    color: #4CAF50;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px #000;
+    font-size: 32px;
+}
+
+/*게임 화면 */
+canvas {
+    border: 4px solid #fff;
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+    image-rendering: pixelated; 
+}
+
+/* 하단 설명 */
+.instructions {
+    margin-top: 20px;
+    color: #888;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+footer {
+    position: fixed; 
+    bottom: 10px;   
+    width: 50%;     
+    text-align: center; 
+    font-size: 0.5rem;  
+    color: #535c68; 
+}
+
+footer strong {
+    color: #e94560; 
+}
